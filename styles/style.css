@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main svg {
+    width: 50%;
+    height: auto;
+}
+
+#bb {
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+#bb:hover {
+    transform: translateY(-40px);
+}
