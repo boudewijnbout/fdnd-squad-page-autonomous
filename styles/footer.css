@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+
+    background-color: #66e5bf;
+    width: 100vw;
+    height: 12em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.contactgegevens {
+    color: #050542;
+    margin: auto;
+    padding-right: 200px;
+    line-height: 2em;
+    font-size: 1.2em;
+    list-style: none;
+
+}
+
+.logo {
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    padding-left: 400px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
