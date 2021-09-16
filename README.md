@@ -5,6 +5,8 @@
 ## Beschrijving
 <!-- Voeg een link toe naar Github Pages 🌐-->
 <!-- Voeg een mooie poster visual toe 📸 -->
+<img width="1439" alt="Schermafbeelding 2021-09-16 om 13 15 55" src="https://user-images.githubusercontent.com/45170095/133602669-87617246-0ef4-4a11-abad-bda3439e7e4a.png">
+
 
 ## Inhoudsopgave
 
