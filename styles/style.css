@@ -14,13 +14,13 @@ main svg {
     z-index: 999;
 }
 
-.banner {
+.hero {
     display: flex;
     justify-content: center;
     position: relative;
 }
 
-.banner:before {
+.hero:before {
     content: '';
     position: absolute;
     top: 0;
