@@ -4,6 +4,40 @@
     padding: 0;
 }
 
+/* Header */
+header {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Hva logo */
+header #hva-logo {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+
+/* Main title */
+header h1 {
+    font-family: 'Alice', serif;
+    margin-top: 15px;
+    font-size: 2.25em;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+/* Social icons */
+.social-icons { 
+    
+}
+
 /* Main */
 main svg {
     width: 50%;
@@ -11,13 +45,15 @@ main svg {
     z-index: 999;
     position: relative;
     top: 75px;
-    z-index: 999;
+    z-index: 10;
 }
 
+/* Hero  */
 .hero {
     display: flex;
     justify-content: center;
     position: relative;
+    z-index: 5;
 }
 
 .hero:before {
@@ -25,7 +61,7 @@ main svg {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 80%;
     background: rgb(102,229,191);
     background: linear-gradient(0deg, rgba(102,229,191,1) 15%, rgba(5,5,66,1) 75%);
