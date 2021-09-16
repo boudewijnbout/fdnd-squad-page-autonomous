@@ -1,5 +1,8 @@
 > Fork deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
+![afbeelding](https://user-images.githubusercontent.com/26089533/133573233-4039955d-c1dc-4f23-8bad-4d3d5400144b.png)
+
+
 # Titel
 
 ## Beschrijving
