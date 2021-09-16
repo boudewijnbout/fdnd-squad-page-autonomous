@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Scada:wght@700&display=swap" rel="stylesheet">
 
     <title>Document</title>
 </head>
 <body>
 
     <main>
+
         <svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="bank 1">
         <g id="achterkant">
@@ -1270,7 +1273,7 @@
         <path id="Vector_294" d="M1037.74 407.41C1037.89 408.77 1038.3 410.86 1037.4 411.89C1036.68 412.71 1034.84 413.17 1033.74 413.68C1030.31 415.27 1027.41 417.89 1025.26 420.98C1023.02 424.19 1021.99 428 1020.43 431.54C1019.14 434.46 1017.5 437.16 1014.61 438.54C1013.15 439.24 1012.76 441.33 1013.53 442.64C1014.4 444.13 1016.17 444.42 1017.63 443.72C1021.16 442.03 1023.65 438.72 1025.29 435.25C1027.05 431.53 1028.04 427.39 1030.44 424C1032.61 420.94 1035.62 419.44 1038.86 417.96C1040.85 417.04 1042.44 415.6 1043.26 413.55C1044.04 411.59 1043.97 409.47 1043.75 407.41C1043.57 405.8 1042.5 404.41 1040.75 404.41C1039.26 404.41 1037.57 405.79 1037.74 407.41Z" fill="black"/>
         </g>
         </g>
-        <g id="dz">
+        <g id="dz" onclick="openBox()">
         <g id="Group_464">
         <g id="Group_465">
         <path id="Vector_295" d="M626.34 509.42C626.83 509.69 627.36 509.9 627.88 510.1C628.17 510.21 628.47 510.3 628.78 510.37C629.18 510.5 629.58 510.51 629.98 510.42C630.38 510.4 630.75 510.28 631.1 510.06C631.45 509.87 631.73 509.61 631.94 509.29C632.21 509 632.38 508.66 632.48 508.27C632.52 508 632.55 507.74 632.59 507.47C632.59 506.93 632.45 506.42 632.18 505.96C632.02 505.76 631.87 505.56 631.71 505.35C631.34 504.98 630.89 504.72 630.39 504.58C630 504.49 629.63 504.37 629.26 504.22C629.5 504.32 629.74 504.42 629.98 504.52C629.78 504.43 629.58 504.34 629.39 504.23C629.05 504.01 628.67 503.89 628.27 503.87C627.87 503.78 627.47 503.8 627.07 503.92C626.68 504.01 626.34 504.19 626.05 504.46C625.72 504.67 625.47 504.95 625.28 505.3C625.18 505.54 625.08 505.78 624.98 506.02C624.84 506.55 624.84 507.08 624.98 507.62C625.08 507.86 625.18 508.1 625.28 508.34C625.53 508.8 625.89 509.16 626.34 509.42Z" fill="black"/>
@@ -2019,7 +2022,24 @@
         </g>
         </g>
         </svg>
+        
+        <div class="popup" id="myPopup">
+            <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
+            <h1>DAPHNE ZWUUP</h1>
+            <p>20 jaar <br> daphne.zwuup@hva.nl <br></p>
+            <a target="_blank" href="https://dphnzwp.github.io/fdnd-visitekaartje-autonomous/">https://dphnzwp.github.io/fdnd-visitekaartje-autonomous/</a>
+        </div>
     </main>
+
+    <script>
+        function openBox() {
+          document.getElementById("myPopup").style.display = "block";
+        }
+        
+        function closeBox() {
+          document.getElementById("myPopup").style.display = "none";
+        }
+    </script>
         
 </body>
 </html>
