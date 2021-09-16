@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main */
+main svg {
+    width: 50%;
+    height: auto;
+    z-index: 999;
+    position: relative;
+    top: 75px;
+    z-index: 999;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 80%;
+    background: rgb(102,229,191);
+    background: linear-gradient(0deg, rgba(102,229,191,1) 15%, rgba(5,5,66,1) 75%);
+    border-radius: 0 0 60% 60% / 0 0 60% 60%;
+}
+
+.person {
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.person:hover {
+    transform: translateY(-40px);
+}
