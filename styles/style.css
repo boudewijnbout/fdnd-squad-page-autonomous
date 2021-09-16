@@ -15,11 +15,11 @@ main svg {
     height: auto;
 }
 
-#bb {
+.person {
     transition: all 200ms;
     cursor: pointer;
 }
 
-#bb:hover {
+.person:hover {
     transform: translateY(-40px);
 }
