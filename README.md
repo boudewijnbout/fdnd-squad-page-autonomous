@@ -6,6 +6,9 @@
 <!-- Voeg een link toe naar Github Pages 🌐-->
 <!-- Voeg een mooie poster visual toe 📸 -->
 
+![afbeelding](https://user-images.githubusercontent.com/26089533/133609393-61dc0bb1-1fad-44af-a43c-ddcc25c699e9.png)
+
+
 ## Inhoudsopgave
 
 - [Titel](#titel)
