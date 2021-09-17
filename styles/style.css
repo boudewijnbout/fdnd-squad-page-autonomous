@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+body {
+    background: #f8fafc;
+    height: 100vw;
+}
+
 /* Header */
 header {
     z-index: 999;
@@ -14,13 +19,21 @@ header {
     color: #fff;
     display: flex;
     justify-content: space-between;
+    transition: 300ms;
+    padding: 5px 10px;
+}
+
+/* Change navbar on scroll */
+header.scrolled {
+    background: #050542;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
 }
 
 /* Hva logo */
 header #hva-logo {
-    width: 10%;
+    width: 125px;
     height: auto;
-    position: absolute;
+    position: relative;
     left: 30px;
     top: 15px;
 }
@@ -31,11 +44,32 @@ header h1 {
     margin-top: 15px;
     font-size: 2.25em;
     text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    transition: 400ms;
+    position: relative;
+    top: 0;
+}
+
+/* Change main title on scroll */
+header h1.scrolled {
+    background: #66e5bf;
+    top: 15px;
+    padding: 5px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
 }
 
 /* Social icons */
 .social-icons { 
-    
+    margin-top: 15px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 25px;
+    margin-right: 15px;
+    height: auto;
 }
 
 /* Main */
@@ -46,6 +80,7 @@ main svg {
     position: relative;
     top: 75px;
     z-index: 10;
+    margin-bottom: 60px;
 }
 
 /* Hero  */
@@ -64,8 +99,23 @@ main svg {
     width: 100%;
     height: 80%;
     background: rgb(102,229,191);
-    background: linear-gradient(0deg, rgba(102,229,191,1) 15%, rgba(5,5,66,1) 75%);
+    background: linear-gradient(5deg, rgba(102,229,191,1) 15%, rgba(5,5,66,1) 75%);
+    background-size: 200% 200%;
     border-radius: 0 0 60% 60% / 0 0 60% 60%;
+    animation: gradient 10s ease infinite;
+}
+
+/* Animate the gradient */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .person {

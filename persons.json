@@ -1,0 +1,14 @@
+{
+    "persons": [
+        {
+            "id": "bb",
+            "name": "Boudewijn",
+            "age": "20"
+        },
+        {
+            "initials": "bd",
+            "name": "Beau",
+            "age": "23"
+        }
+    ]
+}
