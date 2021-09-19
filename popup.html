@@ -958,7 +958,7 @@
         </g>
         <path id="Vector_210" d="M496 279C496 279 490 252 490 249C490 246 483 224 483 224L468.47 213.76C468.47 213.76 465.81 205.39 455.91 210.2C455.91 210.2 436.48 208.26 432.75 207.13C429.01 206 424.43 204.24 418.72 206.62C413.01 209 400.68 216.32 400.68 216.32C400.68 216.32 397.5 215.85 389.76 221.93C382.01 228 379.78 227.43 375.4 234.72C371.02 242.01 368.57 251.65 368.57 251.65C368.57 251.65 364.12 274.65 368.57 292.33L374.12 275.34C374.12 275.34 380.01 260.01 382.01 255.01C384.01 250.01 386.43 241 399.22 241C412.01 241.01 431.02 248.03 439.02 242.02C439.02 242.02 443.01 236.01 451.01 240.01C459.01 244.01 463.04 243.48 467.03 242.24C471.01 241.01 475.24 246.7 475.24 246.7C475.24 246.7 477.73 252.04 479.37 257.03C481.01 262.02 496 279 496 279Z" fill="black"/>
         </g>
-        <g id="aj" class="person">
+        <g id="aj" onclick="openBox()" class="person">
         <g id="Group_354">
         <g id="Group_355">
         <path id="Vector_211" d="M62.11 686.85C64.22 691.66 65.45 694.46 68.05 697.94C71.8 702.96 75.26 707.58 79.31 707.83C89.16 708.45 103.48 683.19 97.24 668.04C95.62 664.1 91.74 658.63 90.69 657.25C88.57 654.48 82.64 647.87 81.07 646.13C80.99 645.96 80.95 645.86 80.95 645.86C80.86 645.81 80.78 645.77 80.69 645.72C80.68 645.71 80.68 645.71 80.68 645.71C80.68 645.71 80.68 645.71 80.67 645.71C71.96 640.54 66.08 649.31 63.44 657.75C61.37 662.13 58.52 668.34 58.25 669.55C57.1 674.48 58.73 679.14 62.11 686.85Z" fill="white"/>
@@ -2022,110 +2022,112 @@
         </g>
         </g>
         </svg>
-
-        <div class="team1">
-            <button type="button" class="btn cancel">&#215;</button>
-            <div class="item">
-                <h1>ARMANDO JUBITANA</h1>
-                <img class="image" src="assets/Armando Jubitana.JPG" alt="Armando Jubitana">
-            </div>
-            <div class="item">
-                <p class="quote">"Fotograaf!"</p>
-                <p>33 jaar <br> armando.jubitana@hva.nl</p>
-                <a target="_blank" href="#">Kan ik niet vinden?</a>
-            </div>
-        </div>
-        <div class="team3">
-            <button type="button" class="btn cancel">&#215;</button>
-            <div class="item">
-                <h1>SHAURI MAIGUA CÁCERES</h1>
-                <img class="image" src="assets/Shauri Maigua Cáceres.JPG" alt="Shauri Maigua Cáceres">
-            </div>
-            <div class="item">
-                <p class="quote">"Een danser en tekenaar!"</p>
-                <p>23 jaar <br> shauri.maigua.careres@hva.nl</p>
-                <a target="_blank" href="https://scnmc.github.io/fdnd-visitekaartje-autonomous/#">https://scnmc.github.io/fdnd-visitekaartje-autonomous/#</a>
+        <!-- Popup animatie testen -->
+        <div class="popup" id="myPopup">
+            <div class="team1">
+                <div class="item">
+                    <h1>ARMANDO JUBITANA</h1>
+                    <img class="image" src="assets/Armando Jubitana.JPG" alt="Armando Jubitana">
+                </div>
+                <div class="item">
+                    <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
+                    <p class="quote">"Fotograaf!"</p>
+                    <p>33 jaar <br> armando.jubitana@hva.nl</p>
+                    <a target="_blank" href="#">Kan ik niet vinden?</a>
+                </div>
             </div>
         </div>
+        <!-- <div class="team3">
+                <div class="item">
+                    <h1>SHAURI MAIGUA CÁCERES</h1>
+                    <img class="image" src="assets/Shauri Maigua Cáceres.JPG" alt="Shauri Maigua Cáceres">
+                </div>
+                <div class="item">
+                    <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
+                    <p class="quote">"Een danser en tekenaar!"</p>
+                    <p>23 jaar <br> shauri.maigua.careres@hva.nl</p>
+                    <a target="_blank" href="https://scnmc.github.io/fdnd-visitekaartje-autonomous/#">https://scnmc.github.io/fdnd-visitekaartje-autonomous/#</a>
+                </div>
+            </div>
         <div class="team2">
-            <button type="button" class="btn cancel">&#215;</button>
             <div class="item">
                 <h1>BOUDEWIJN BOUT</h1>
                 <img class="image" src="assets/Boudewijn Bout.JPG" alt="Daphne Zwuup">
             </div>
             <div class="item">
+                <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
                 <p class="quote">"Koffie nodig en zingt graag!"</p>
                 <p>20 jaar <br> boudewijn.bout@hva.nl</p>
                 <a target="_blank" href="https://boudewijnbout.github.io/fdnd-visitekaartje-extension/">https://boudewijnbout.github.io/<br>fdnd-visitekaartje-extension/</a>
             </div>
         </div>
         <div class="team1">
-            <button type="button" class="btn cancel">&#215;</button>
             <div class="item">
                 <h1>BEAU DEKKER</h1>
                 <img class="image" src="assets/Beau Dekker.JPG" alt="Beau Dekker">
             </div>
             <div class="item">
+                <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
                 <p class="quote">"Eet altijd kebab!"</p>
                 <p>19 jaar <br> beau.dekker@hva.nl</p>
                 <a target="_blank" href="http://beaupd.student.fdnd.nl/">http://beaupd.student.fdnd.nl/</a>
             </div>
         </div>
         <div class="team3">
-            <button type="button" class="btn cancel">&#215;</button>
             <div class="item">
                 <h1>JUSTIN LUNG</h1>
                 <img class="image" src="assets/Justin Lung.JPG" alt="Justin Lung">
             </div>
             <div class="item">
+                <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
                 <p class="quote">"POWERLIFTING!"</p>
                 <p>20 jaar <br> justin.lung@hva.nl</p>
                 <a target="_blank" href="http://justin.student.fdnd.nl/">http://justin.student.fdnd.nl/</a>
             </div>
         </div>
         <div class="team2">
-            <button type="button" class="btn cancel">&#215;</button>
             <div class="item">
                 <h1>FINN VAN BEKKUM</h1>
                 <img class="image" src="assets/Finn van Bekkum.JPG" alt="Finn van Bekkum">
             </div>
             <div class="item">
+                <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
                 <p class="quote">"Kan niet zonder koffie!"</p>
                 <p>24 jaar <br> finn.van.bekkum@hva.nl</p>
                 <a target="_blank" href="https://finnvb.github.io/fdnd-visitekaartje-autonomous/">https://finnvb.github.io/fdnd-visitekaartje-autonomous/</a>
             </div>
         </div>
         <div class="team1">
-            <button type="button" class="btn cancel">&#215;</button>
             <div class="item">
                 <h1>DAAN KORVER</h1>
                 <img class="image" src="assets/Daan Korver.JPG" alt="Daan Korver">
             </div>
             <div class="item">
+                <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
                 <p class="quote">"Sportief!"</p>
                 <p>21 jaar <br> daan.korver@hva.nl</p>
                 <a target="_blank" href="https://daankorver.nl/">https://daankorver.nl/</a>
             </div>
         </div>
         <div class="team3">
-            <button type="button" class="btn cancel">&#215;</button>
             <div class="item">
                 <h1>NANDITA BADELOE</h1>
                 <img class="image" src="assets/Nandita Badeloe.JPG" alt="Nandita Badeloe">
             </div>
             <div class="item">
-                <p class="quote">"?!"</p>
+                <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
+                <p class="quote">"Fashionista!"</p>
                 <p>21 jaar <br> nandita.badeloe@hva.nl</p>
                 <a target="_blank" href="#">Kan ik niet vinden?</a>
             </div>
         </div>
         <div class="team2">
-            <button type="button" class="btn cancel">&#215;</button>
             <div class="item">
                 <h1>EMONA SANTIAGO</h1>
                 <img class="image" src="assets/Emona Santiago.JPG" alt="Emona Santiago">
             </div>
             <div class="item">
+                <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
                 <p class="quote">"Ideeën bedenker en mastermind!"</p>
                 <p>21 jaar <br> emona.santiago.santiago@hva.nl</p>
                 <a target="_blank" href="#">Kan ik niet vinden?</a>
@@ -2133,78 +2135,78 @@
         </div>
         
         <div class="team2">
-            <button type="button" class="btn cancel">&#215;</button>
             <div class="item">
                 <h1>DAPHNE ZWUUP</h1>
                 <img class="image" src="assets/Daphne Zwuup.JPG" alt="Daphne Zwuup">
             </div>
             <div class="item">
+                <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
                 <p class="quote">"Tekentalent!"</p>
                 <p>20 jaar <br> daphne.zwuup@hva.nl</p>
                 <a target="_blank" href="https://dphnzwp.github.io/fdnd-visitekaartje-autonomous/">https://dphnzwp.github.io/fdnd-visitekaartje-autonomous/</a>
             </div>
         </div>
         <div class="team1">
-            <button type="button" class="btn cancel">&#215;</button>
             <div class="item">
                 <h1>JEAN ROJER</h1>
                 <img class="image" src="assets/Jean Rojer.JPG" alt="Jean Rojer">
             </div>
             <div class="item">
+                <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
                 <p class="quote">"Ping pong koning!"</p>
                 <p>23 jaar <br> jean.rojer@hva.nl</p>
                 <a target="_blank" href="#">Kan ik niet vinden?</a>
             </div>
         </div>
         <div class="team3">
-            <button type="button" class="btn cancel">&#215;</button>
             <div class="item">
                 <h1>CHAAN SOEKANA</h1>
                 <img class="image" src="assets/Chaan Soekana.JPG" alt="Chaan Soekana">
             </div>
             <div class="item">
+                <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
                 <p class="quote">"Een echte designer!"</p>
                 <p>23 jaar <br> chaan.soekana@hva.nl</p>
                 <a target="_blank" href="https://chaanw.github.io/fdnd-visitekaartje-autonomous/">https://chaanw.github.io/fdnd-visitekaartje-autonomous/</a>
             </div>
         </div>
         <div class="team1">
-            <button type="button" class="btn cancel">&#215;</button>
             <div class="item">
                 <h1>YASSER SLAYMEN</h1>
                 <img class="image" src="assets/Yasser Slaymen.JPG" alt="Yasser Slaymen">
             </div>
             <div class="item">
+                <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
                 <p class="quote">"Ijverig creatief!"</p>
                 <p>31 jaar <br> yasser.slaymen@hva.nl</p>
                 <a target="_blank" href="#">Kan ik niet vinden?</a>
             </div>
         </div>
         <div class="team2">
-            <button type="button" class="btn cancel">&#215;</button>
             <div class="item">
                 <h1>MATTHIJS BLAUW</h1>
                 <img class="image" src="assets/Matthijs Blauw.JPG" alt="Matthijs Blauw">
             </div>
             <div class="item">
+                <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
                 <p class="quote">"Altijd telaat!"</p>
                 <p>20 jaar <br> matthijs.blauw@hva.nl</p>
                 <a target="_blank" href="#">Kan ik niet vinden?</a>
             </div>
         </div>
         <div class="team3">
-            <button type="button" class="btn cancel">&#215;</button>
             <div class="item">
                 <h1>ABDURABI ABUKAR</h1>
                 <img class="image" src="assets/Abdurabi Abukar.JPG" alt="Abdurabi Abukar">
             </div>
             <div class="item">
+                <button type="button" class="btn cancel" onclick="closeBox()">&#215;</button>
                 <p class="quote">"Een video maker!"</p>
                 <p>23 jaar <br> abdurabi.abukar@hva.nl</p>
                 <a target="_blank" href="#">Kan ik niet vinden?</a>
             </div>
-        </div>
+        </div> -->
     </main>
-        
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
