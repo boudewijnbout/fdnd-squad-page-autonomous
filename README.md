@@ -6,6 +6,7 @@
 <!-- Voeg een link toe naar Github Pages 🌐-->
 <!-- Voeg een mooie poster visual toe 📸 -->
 ![Dit heb ik gemaakt](https://user-images.githubusercontent.com/69635977/133608067-3e3012e1-5393-4738-a7f0-3353eb56d9ef.png)
+![Dit heb ik gemaakt 2](https://user-images.githubusercontent.com/69635977/133942914-619dc410-2ca7-49fe-8c80-f82f0ebc020b.png)
 
 ## Inhoudsopgave
 
