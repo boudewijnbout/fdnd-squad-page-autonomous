@@ -42,6 +42,13 @@ svg {
     cursor: pointer;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  .team1 {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  }
+
 .team1 {
     display: flex;
     color: #050542;
@@ -105,8 +112,9 @@ svg {
     color: white;
 }
 
-  .item {
+  .item-2 {
       line-height: 2em;
+      padding-left: 15px;
   }
 
   .imagepop {
