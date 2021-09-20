@@ -17,16 +17,16 @@ h1 {
 }
 
 svg {
-    width: 100vw;
+    width: 100%;
 }
 
 .btn {
     color: white;
     border: none;
     background: none;
-    font-size: 60px;
+    font-size: 90px;
     cursor: pointer;
-    margin-left: 230px;
+    margin-left: 140px;
     transition: all 500ms;
 }
 
@@ -34,20 +34,15 @@ svg {
     transform: rotate(90deg);
 }
 
-.popup {
+section {
     display:none;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 #aj {
     cursor: pointer;
 }
-
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-  .team1 {
-    margin-left: 30%;
-    margin-right: 30%;
-  }
-  }
 
 .team1 {
     display: flex;
@@ -55,10 +50,8 @@ svg {
     background-color: #66e5bf;
     border: 4px solid black;
     width: 30rem;
-    margin-left: 30%;
-    margin-right: 30%;
-    padding-left: 25px;
-    padding-bottom: 25px;
+    line-height: 2em;
+    padding: 0 20px 20px 20px;
     animation: popup .5s alternate;
   }
 
@@ -83,41 +76,33 @@ svg {
 .team2 {
     display: flex;
     color: white;
-    margin-left: 460px;
-    margin-right: 460px;
-    padding-left: 25px;
-    padding-bottom: 25px;
     background-color: #a675f5;
     border: 4px solid black;
+    width: 30rem;
     animation: popup .5s alternate;
   }
 
-.team3 a {
+.team3 a, .team2 a {
     color: white;
 }
 
 .team3 {
     display: flex;
     color: white;
-    margin-left: 460px;
-    margin-right: 460px;
-    padding-left: 25px;
-    padding-bottom: 25px;
     background-color: #050542;
     border: 4px solid black;
+    width: 30rem;
+    align-items: center;
     animation: popup .5s alternate;
-  }
-
-.team2 a {
-    color: white;
-}
-
-  .item-2 {
-      line-height: 2em;
-      padding-left: 15px;
   }
 
   .imagepop {
       width: 230px;
       padding-top: 10px;
+  }
+
+  @media only screen and (max-width: 35em){
+    section {
+      margin:0;
+  }
   }
