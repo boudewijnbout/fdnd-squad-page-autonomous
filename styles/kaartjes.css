@@ -14,7 +14,6 @@ body {
 main{
     display: flex;
     max-width: 80em;
-    /* margin: 0 50%; */
     /* justify-content: center; */
     /* align-items: center; */
 }
@@ -22,8 +21,8 @@ main{
 main > ul{
     display: grid;
     grid-template-columns: repeat(1, minmax(450px, 550px));
-    grid-gap: 2.5em;
-    justify-content: center;
+    grid-gap: 5em;
+    justify-content: space-around;
     margin-top: 1em
 }
 main > ul > li{
@@ -43,9 +42,8 @@ main > ul > li{
  main > ul > li{
     display: flex;
     background-color: #050542;
-    width: 27em;
-    height: 17em;
-    margin: auto;
+    width: 30em;
+    height: 19em;
     border-radius: 1rem;
     justify-content: center;
     align-items: center;
@@ -58,16 +56,12 @@ main > ul > li{
 
 }
 .foto{
-  
     width: 12em;
     height: 10em;
     border-radius: 1em;
     left: 0;
     margin-left: 0.75em;
     position: absolute;
-}
-.team1, .team2, .team3{
-   
 }
 
 .team1 ul, .team2 ul, .team3 ul{
