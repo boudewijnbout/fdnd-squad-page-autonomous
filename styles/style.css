@@ -9,7 +9,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-family: "Roboto", "Arial", sans-serif;
-  height: 200vw;
 }
 
 body:before {
@@ -282,6 +281,14 @@ footer span {
   font-size: 2.5rem;
 }
 
+.popup h2:after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 2px;
+  background: red;
+}
+
 .popup p {
   grid-area: 2 / 1;
 }
@@ -290,3 +297,78 @@ footer span {
   width: 100%;
   border-radius: 8px;
 }
+
+
+main > ul{
+  display: grid;
+  grid-template-columns: repeat(1, minmax(450px, 550px));
+  grid-gap: 3em;
+  justify-content:center;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+@media(min-width: 720px) {
+  main > ul {	grid-template-columns: repeat(2, minmax(450px, 550px));
+}}
+
+@media(min-width: 1190px) {
+main > ul {	grid-template-columns: repeat(3, minmax(450px, 550px));
+}}
+
+main > ul > li{
+  display: flex;
+  /* width: 30em; */
+  /* height: 20em; */
+  background-color: #050542;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center; 
+  color: #fff;
+}
+.team1{
+  background-color: #A675F5;
+}
+.team2{
+  background-color: #66E5BF;
+}
+.team3{
+  background-color: #050542;
+}
+
+.foto{
+  width: 12em;
+  height: 10em;
+  border-radius: 1em;
+  left: 0;
+  margin-left: 0.75em;
+  /* position: absolute; */
+  position: relative;
+
+
+}
+
+.team1 ul, .team2 ul, .team3 ul{
+  /* margin-left: 13.5em; */
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+} 
+
+li{
+  list-style: none;
+  padding: 10px;
+  font-size: 1em;
+  color: #fff;
+}
+
+li a:hover{
+font-weight: bold;
+text-decoration: underline;
+
+}
+
+.team2 a{
+    background-color: #050542;
+    color:#66E5BF;
+  }
