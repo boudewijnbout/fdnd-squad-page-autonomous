@@ -37,16 +37,23 @@ main > ul{
 
  main > ul > li{
     display: flex;
-    background-color: #050542;
     /* width: 30em; */
     /* height: 20em; */
-  
+    background-color: #050542;
     border-radius: 1rem;
     justify-content: center;
-    align-items: center;
- 
+    align-items: center; 
+    color: #fff;
 }
-
+.team1{
+    background-color: #A675F5;
+}
+.team2{
+    background-color: #66E5BF;
+}
+.team3{
+    background-color: #050542;
+}
 
 .foto{
     width: 12em;
@@ -67,15 +74,11 @@ main > ul{
     flex-direction: column;
 } 
 
-
-
 li{
     list-style: none;
     padding: 10px;
     font-size: 1em;
-    color: #66e5bf;
-
-  
+    color: #fff;
 }
 
 a{
@@ -84,6 +87,7 @@ a{
     background-color: #66e5bf;
     padding: 5px;
     border-radius: 5px;
+    
 }
 li a:hover{
   font-weight: bold;
@@ -91,3 +95,22 @@ li a:hover{
 
 }
 
+
+  .team2 a{
+      background-color: #050542;
+      color:#66E5BF;
+    }
+
+
+/* Filter Systeem */
+ul.team1 li:not(.team1) {
+    display:none;
+  }
+  
+  ul.team2 li:not(.team2) {
+    display:none;
+  }
+  
+  ul.team3 li:not(.team3) {
+    display:none;
+  }
