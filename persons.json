@@ -1,0 +1,117 @@
+{
+    "persons": [
+        {
+            "id": "aj",
+            "name": "Armando",
+            "age": "33",
+            "slug": "Fotograaf",
+            "image": "http://127.0.0.1:5500/assets/persons/Armando%20Jubitana.JPG",
+            "link": "http://armando.student.fdnd.nl/"
+        },
+        {
+            "id": "dz",
+            "name": "Daphne",
+            "age": "20",
+            "slug": "Teken talent",
+            "image": "http://127.0.0.1:5500/assets/persons/Daphne%20Zwuup.JPG",
+            "link": "https://daphne.student.fdnd.nl/"
+        },
+        {
+            "id": "jr",
+            "name": "Jean",
+            "age": "23",
+            "slug": "Ping pong koning",
+            "image": "http://127.0.0.1:5500/assets/persons/Jean%20Rojer.JPG"
+        },
+        {
+            "id": "cs",
+            "name": "Chaan",
+            "age": "23",
+            "slug": "Een echte designer",
+            "image": "http://127.0.0.1:5500/assets/persons/Chaan%20Soekana.JPG"
+        },
+        {
+            "id": "ys",
+            "name": "Yasser",
+            "age": "31",
+            "slug": "Ijverig - creatief",
+            "image": "http://127.0.0.1:5500/assets/persons/Yasser%20Slaymen.JPG"
+        },
+        {
+            "id": "mb",
+            "name": "Matthijs",
+            "age": "20",
+            "slug": "Altijd telaat",
+            "image": "http://127.0.0.1:5500/assets/persons/Matthijs%20Blauw.JPG"
+        },
+        {
+            "id": "aa",
+            "name": "Abdurabi",
+            "age": "28",
+            "slug": "Video maker - sportief",
+            "image": "http://127.0.0.1:5500/assets/persons/Abdurabi%20Abukar.JPG",
+            "link": "https://abdurabi.student.fdnd.nl/"
+        },
+        {
+            "id": "sm",
+            "name": "Shauri",
+            "age": "23",
+            "slug": "Danser - tekenaar",
+            "image": "http://127.0.0.1:5500/assets/persons/Shauri%20Maigua%20Ca%CC%81ceres.JPG"
+        },
+        {
+            "id": "bb",
+            "name": "Boudewijn",
+            "age": "20",
+            "slug": "Koffie nodig - zingt graag",
+            "image": "http://127.0.0.1:5500/assets/persons/Boudewijn%20Bout.JPG",
+            "link": "https://boudewijn.student.fdnd.nl/"
+        },
+        {
+            "id": "bd",
+            "name": "Beau",
+            "age": "19",
+            "slug": "Eet altijd kebab",
+            "image": "http://127.0.0.1:5500/assets/persons/Beau%20Dekker.JPG",
+            "link": "http://beaupd.student.fdnd.nl/"
+        },
+        {
+            "id": "jl",
+            "name": "Justin",
+            "age": "20",
+            "slug": "Powerlifting",
+            "image": "http://127.0.0.1:5500/assets/persons/Justin%20Lung.JPG",
+            "link": "http://justin.student.fdnd.nl/"
+        },
+        {
+            "id": "fvb",
+            "name": "Finn",
+            "age": "24",
+            "slug": "Kan niet zonder koffie",
+            "image": "http://127.0.0.1:5500/assets/persons/Finn%20van%20Bekkum.JPG",
+            "link": "ttps://finn.student.fdnd.nl/"
+        },
+        {
+            "id": "dk",
+            "name": "Daan",
+            "age": "21",
+            "slug": "Sportief",
+            "image": "http://127.0.0.1:5500/assets/persons/Daan%20Korver.JPG",
+            "link": "https://daan.student.fdnd.nl/"
+        },
+        {
+            "id": "nb",
+            "name": "Nandita",
+            "age": "19",
+            "slug": "Fashionista",
+            "image": "http://127.0.0.1:5500/assets/persons/Nandita%20Badeloe.JPG"
+        },
+        {
+            "id": "es",
+            "name": "Emona",
+            "age": "17",
+            "slug": "Ideeën bedenken - master mind",
+            "image": "http://127.0.0.1:5500/assets/persons/Emona%20Santiago.JPG"
+        }
+    ]
+}
