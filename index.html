@@ -15,6 +15,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Document</title>
   </head>
   <body>
@@ -3115,26 +3117,22 @@
           margin: 0 auto;
         "
       />
-
-    <!-- Person cards -->
     
-
     <!-- Person popup -->
     <section class="popup">
       <div>
         <h2 class="naam"></h2>
         <p class="leeftijd"></p>
         <p class="slug"></p>
-        <a href="#">Bekijk visitekaartje</a>
+        <a class="card-link" href="" target="_blank">Bekijk visitekaartje</a>
       </div>
       <img class="person-2" src= />
     </section>
 
     <!-- Person cards -->
-
     <section class="person-cards">
           <ul class="all" id="list" class="kaartjes-wrapper">
-              <li class="team3 personCard" id="aa">
+              <li class="team3 personCard" data-aos="fade-up" id="aa">
                   <img src="assets/persons/Abdurabi Abukar.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Abdurabi Abukar</li>
@@ -3145,7 +3143,7 @@
                   </ul>
               </li>
   
-              <li class="team2 personCard" id="aj">       
+              <li class="team1 personCard" id="aj" data-aos="fade-up" data-aos-delay="300">       
                   <img src="assets/persons/Armando Jubitana.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Armando Jubitana</li>
@@ -3155,7 +3153,7 @@
                       <li>Fotografie</li>
                   </ul>
               </li>
-              <li class="team2 personCard" id="bd">
+              <li class="team1 personCard" id="bd" data-aos="fade-up" data-aos-delay="600">
                 <img src="assets/persons/Beau Dekker.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Beau Dekker</li>
@@ -3165,7 +3163,7 @@
                       <li>Eet altijd kebab</li>
                   </ul>
               </li>    
-              <li class="team1 personCard" id="bb">
+              <li class="team2 personCard" id="bb" data-aos="fade-up">
                 <img src="assets/persons/Boudewijn Bout.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Boudewijn Bout </li>
@@ -3175,7 +3173,7 @@
                       <li>Koffie nodig, zingt graag</li>
                   </ul>
               </li>    
-              <li class="team3 personCard" id="cs">
+              <li class="team3 personCard" id="cs" data-aos="fade-up" data-aos-delay="300">
                 <img src="assets/persons/Chaan Soekana.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Chaan Soekana</li>
@@ -3185,7 +3183,7 @@
                       <li>Een echte designer</li>
                   </ul>
               </li>    
-              <li class="team2 personCard" id="dk">
+              <li class="team1 personCard" id="dk" data-aos="fade-up" data-aos-delay="600">
                 <img src="assets/persons/Daan Korver.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Daan Korver</li>
@@ -3195,7 +3193,7 @@
                       <li>Sportief</li>
                   </ul>
               </li>    
-              <li class="team1 personCard" id="dz">
+              <li class="team2 personCard" id="dz" data-aos="fade-up">
                 <img src="assets/persons/Daphne Zwuup.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Daphne Zwuup</li>
@@ -3205,7 +3203,7 @@
                       <li>Teken talent</li>
                   </ul>
               </li>    
-              <li class="team1 personCard" id="es">
+              <li class="team2 personCard" id="es" data-aos="fade-up" data-aos-delay="300">
                 <img src="assets/persons/Emona Santiago.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Emona Santiago</li>
@@ -3215,7 +3213,7 @@
                       <li>Ideeën bedenken & master mind</li>
                   </ul>
               </li>    
-              <li class="team1 personCard" id="fvb">
+              <li class="team2 personCard" id="fvb" data-aos="fade-up" data-aos-delay="600">
                 <img src="assets/persons/Finn van Bekkum.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Finn van Bekkum</li>
@@ -3225,7 +3223,7 @@
                       <li>Kan niet zonder koffie</li>
                   </ul>
               </li>    
-              <li class="team2 personCard" id="jr">
+              <li class="team1 personCard" id="jr" data-aos="fade-up">
                 <img src="assets/persons/Jean Rojer.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Jean Rojer</li>
@@ -3235,7 +3233,7 @@
                       <li>Ping pong koning</li>
                   </ul>
               </li>    
-              <li class="team3 personCard" id="jl">
+              <li class="team3 personCard" id="jl" data-aos="fade-up" data-aos-delay="300">
                 <img src="assets/persons/Justin Lung.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Justin Lung</li>
@@ -3244,8 +3242,8 @@
                       <li><a href="#" target="_blank">Visitekaart</a></li>
                       <li>Powerlifting</li>
                   </ul>
-              </li>    
-              <li class="team1 personCard" id="mb">
+              </li>   
+              <li class="team2 personCard" id="mb" data-aos="fade-up" data-aos-delay="600">
                 <img src="assets/persons/Matthijs Blauw.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Matthijs Blauw</li>
@@ -3255,7 +3253,7 @@
                       <li>Houdt van feesten en sporten</li>
                   </ul>
               </li>        
-              <li class="team3 personCard" id="nb">
+              <li class="team3 personCard" id="nb" data-aos="fade-up">
                 <img src="assets/persons/Nandita Badeloe.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Nandita Badeloe</li>
@@ -3265,7 +3263,7 @@
                       <li>Houdt van kaas</li>
                   </ul>
               </li>    
-              <li class="team3 personCard" id="sm">
+              <li class="team3 personCard" id="sm" data-aos="fade-up" data-aos-delay="300">
                 <img src="assets/persons/Shauri Maigua Cáceres.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Shauri Maigua Cáceres</li>
@@ -3275,7 +3273,7 @@
                       <li>Danser & tekenaar</li>
                   </ul>
               </li>
-              <li class="team3 personCard" id="ys">
+              <li class="team1 personCard" id="ys" data-aos="fade-up" data-aos-delay="600">
                 <img src="assets/persons/Yasser Slaymen.JPG" class="foto" alt="Foto">
                   <ul>
                       <li>Yasser Slaymen</li>
@@ -3334,5 +3332,10 @@
     </footer>
 
     <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

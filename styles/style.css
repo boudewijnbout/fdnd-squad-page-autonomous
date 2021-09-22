@@ -345,11 +345,13 @@ footer span {
 }
 
 .team1{
-  background-color: #A675F5;
-}
-.team2{
   background-color: #66E5BF;
 }
+
+.team2{
+  background-color: #A675F5;
+}
+
 .team3{
   background-color: #050542;
 }
@@ -384,7 +386,45 @@ text-decoration: underline;
 
 }
 
-.team2 a{
+.team1 a {
+  background-color: #050452;
+  padding: 5px 5px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.team1 a:hover {
+  text-decoration: none;
+}
+
+.team2 a {
+  background-color: #050452;
+  color: #fff;
+  padding: 5px 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.team2 a:hover {
+  text-decoration: none;
+}
+
+.team3 a {
+  background-color: #66e5bf;
+  padding: 5px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.team3 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* .team2 a{
     background-color: #050542;
     color:#66E5BF;
-  }
+  } */

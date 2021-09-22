@@ -37,7 +37,8 @@ function handleClickOnPerson(event) {
     document.querySelector('h2.naam').innerHTML = clickedPerson.name
     document.querySelector('p.leeftijd').innerHTML = '> ' + clickedPerson.age + ' jaar oud'
     document.querySelector('p.slug').innerHTML = '> ' + clickedPerson.slug
-    document.querySelector('img.person-2').src = clickedPerson.image    
+    document.querySelector('img.person-2').src = clickedPerson.image   
+    document.querySelector('a.card-link').href = clickedPerson.link 
 
     document.querySelector('.popup').style.transform = "scale(1)"
     document.querySelector('.popup').style.visibility = 'visible';

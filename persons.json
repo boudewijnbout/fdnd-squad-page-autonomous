@@ -5,14 +5,16 @@
             "name": "Armando",
             "age": "33",
             "slug": "Fotograaf",
-            "image": "http://127.0.0.1:5500/assets/persons/Armando%20Jubitana.JPG"
+            "image": "http://127.0.0.1:5500/assets/persons/Armando%20Jubitana.JPG",
+            "link": "http://armando.student.fdnd.nl/"
         },
         {
             "id": "dz",
             "name": "Daphne",
             "age": "20",
             "slug": "Teken talent",
-            "image": "http://127.0.0.1:5500/assets/persons/Daphne%20Zwuup.JPG"
+            "image": "http://127.0.0.1:5500/assets/persons/Daphne%20Zwuup.JPG",
+            "link": "https://daphne.student.fdnd.nl/"
         },
         {
             "id": "jr",
@@ -47,7 +49,8 @@
             "name": "Abdurabi",
             "age": "28",
             "slug": "Video maker - sportief",
-            "image": "http://127.0.0.1:5500/assets/persons/Abdurabi%20Abukar.JPG"
+            "image": "http://127.0.0.1:5500/assets/persons/Abdurabi%20Abukar.JPG",
+            "link": "https://abdurabi.student.fdnd.nl/"
         },
         {
             "id": "sm",
@@ -61,35 +64,40 @@
             "name": "Boudewijn",
             "age": "20",
             "slug": "Koffie nodig - zingt graag",
-            "image": "http://127.0.0.1:5500/assets/persons/Boudewijn%20Bout.JPG"
+            "image": "http://127.0.0.1:5500/assets/persons/Boudewijn%20Bout.JPG",
+            "link": "https://boudewijn.student.fdnd.nl/"
         },
         {
             "id": "bd",
             "name": "Beau",
             "age": "19",
             "slug": "Eet altijd kebab",
-            "image": "http://127.0.0.1:5500/assets/persons/Beau%20Dekker.JPG"
+            "image": "http://127.0.0.1:5500/assets/persons/Beau%20Dekker.JPG",
+            "link": "http://beaupd.student.fdnd.nl/"
         },
         {
             "id": "jl",
             "name": "Justin",
             "age": "20",
             "slug": "Powerlifting",
-            "image": "http://127.0.0.1:5500/assets/persons/Justin%20Lung.JPG"
+            "image": "http://127.0.0.1:5500/assets/persons/Justin%20Lung.JPG",
+            "link": "http://justin.student.fdnd.nl/"
         },
         {
             "id": "fvb",
             "name": "Finn",
             "age": "24",
             "slug": "Kan niet zonder koffie",
-            "image": "http://127.0.0.1:5500/assets/persons/Finn%20van%20Bekkum.JPG"
+            "image": "http://127.0.0.1:5500/assets/persons/Finn%20van%20Bekkum.JPG",
+            "link": "ttps://finn.student.fdnd.nl/"
         },
         {
             "id": "dk",
             "name": "Daan",
             "age": "21",
             "slug": "Sportief",
-            "image": "http://127.0.0.1:5500/assets/persons/Daan%20Korver.JPG"
+            "image": "http://127.0.0.1:5500/assets/persons/Daan%20Korver.JPG",
+            "link": "https://daan.student.fdnd.nl/"
         },
         {
             "id": "nb",
