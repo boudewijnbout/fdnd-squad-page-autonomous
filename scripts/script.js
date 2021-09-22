@@ -24,7 +24,9 @@ fetch('./persons.json')
 .then(response => response.json())
 .then(data => {persons = data.persons});
 
-
+Array.prototype.slice.call(document.querySelectorAll('.personCard')).map(person => {
+    person.addEventListener('click', handleClickOnPerson);
+})
 
 Array.prototype.slice.call(document.querySelectorAll('.person')).map(person => {
     person.addEventListener('click', handleClickOnPerson);
@@ -33,8 +35,8 @@ Array.prototype.slice.call(document.querySelectorAll('.person')).map(person => {
 function handleClickOnPerson(event) {
     let clickedPerson = persons.find(person => { return person.id == event.target.parentElement.id })
     document.querySelector('h2.naam').innerHTML = clickedPerson.name
-    document.querySelector('p.leeftijd').innerHTML = clickedPerson.age
-    document.querySelector('p.slug').innerHTML = clickedPerson.slug
+    document.querySelector('p.leeftijd').innerHTML = '> ' + clickedPerson.age + ' jaar oud'
+    document.querySelector('p.slug').innerHTML = '> ' + clickedPerson.slug
     document.querySelector('img.person-2').src = clickedPerson.image    
 
     document.querySelector('.popup').style.transform = "scale(1)"

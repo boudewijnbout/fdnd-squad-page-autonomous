@@ -160,12 +160,13 @@ main svg {
 footer {
   background: #050542;
   color: #fff;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  grid-column: 1 / 4;
 }
 
 footer section {
@@ -273,10 +274,10 @@ footer span {
   padding: 2rem 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr; 
+  color: #fff;
 }
 
 .popup h2 {
-  color: #fff;
   font-family: 'Alice', serif;
   font-size: 2.5rem;
 }
@@ -284,13 +285,20 @@ footer span {
 .popup h2:after {
   content: '';
   display: block;
-  width: 10px;
+  width: 35%;
   height: 2px;
-  background: red;
+  background: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1rem;
+  margin-top: .5rem;
 }
 
 .popup p {
   grid-area: 2 / 1;
+  line-height: 2rem;
+}
+
+.popup .slug {
+  margin-bottom: 30px;
 }
 
 .popup img {
@@ -298,8 +306,20 @@ footer span {
   border-radius: 8px;
 }
 
+.popup a {
+  color: #fff;
+  text-decoration: none;
+  background: #050542;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
 
-main > ul{
+/* Popup card overview */
+.person-cards {
+  position: relative;
+}
+
+.person-cards > ul {
   display: grid;
   grid-template-columns: repeat(1, minmax(450px, 550px));
   grid-gap: 3em;
@@ -309,23 +329,21 @@ main > ul{
 }
 
 @media(min-width: 720px) {
-  main > ul {	grid-template-columns: repeat(2, minmax(450px, 550px));
+  .person-cards > ul {	grid-template-columns: repeat(2, minmax(450px, 550px));
 }}
 
 @media(min-width: 1190px) {
-main > ul {	grid-template-columns: repeat(3, minmax(450px, 550px));
+.person-cards > ul {	grid-template-columns: repeat(3, minmax(450px, 550px));
 }}
 
-main > ul > li{
+.person-cards > ul > li{
   display: flex;
-  /* width: 30em; */
-  /* height: 20em; */
-  background-color: #050542;
   border-radius: 1rem;
   justify-content: center;
   align-items: center; 
   color: #fff;
 }
+
 .team1{
   background-color: #A675F5;
 }
@@ -344,8 +362,6 @@ main > ul > li{
   margin-left: 0.75em;
   /* position: absolute; */
   position: relative;
-
-
 }
 
 .team1 ul, .team2 ul, .team3 ul{
