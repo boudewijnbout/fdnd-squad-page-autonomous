@@ -1,8 +1,7 @@
 # Squadpage team bank
 
-## Beschrijving
-https://teambank.student.fdnd.nl/
-<!-- Voeg een mooie poster visual toe 📸 -->
+## 📄 Beschrijving
+
 ![Screenshot 2021-09-22 at 13-46-09 Document](https://user-images.githubusercontent.com/26089533/134338054-8ada7a54-1343-48d2-a821-130e4e74cba7.png)
 
  Het doel van dit project is om in teamverband een squadpage te realiseren. Op deze squadpage worden alle studenten van het eerste jaar van FDND geïntroduceerd. 
