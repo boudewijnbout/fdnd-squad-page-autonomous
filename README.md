@@ -16,13 +16,19 @@ Wanneer je de website opent krijg je een bank te zien met alle studenten eromhee
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
-## Kenmerken
+## ✅ Kenmerken
 
-## Installatie
+## 🖥️ Installatie
 
-## Gebruik
+1. `Clone` of `download` deze repository.
+
+2. Open het `index.html` bestand.
+
+3. U ziet nu in uw browser de squadpage!
+
+## 🖱️ Gebruik
  
-## Bronnen
+## 📰 Bronnen
  
 ## Licentie
 
